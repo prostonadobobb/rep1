@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/libs/normalize.css">
+    <link rel="stylesheet" href="./style/libs/splide.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/adaptive.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="container">
+            <div class="header_body">
+                <div class="header_left">
+                    <div class="menu">
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+                        <nav class="header_menu">
+                            <ul class="menu_list">
+                                <li class="menu_item"><a href="#about" class="menu_link">О нас</a></li>
+                                <li class="menu_item"><a href="#catalog" class="menu_link">Каталог</a></li>
+                                <li class="menu_item"><a href="#ship" class="menu_link">Доставка</a></li>
+                                <li class="menu_item"><a href="#diets" class="menu_link">Мнения диетологов</a></li>
+                                <li class="menu_item"><a href="#clients" class="menu_link">Наши звездные клиенты</a></li>
+                                <li class="menu_item"><a href="#review" class="menu_link">Отзывы</a></li>
+                                <li class="menu_item"><a href="#contacts" class="menu_link">Контакты</a></li>
+                                <li class="menu_item"><a href="#different" class="menu_link">Советы</a></li>
+                                <li class="menu_item"><a href="#" class="menu_link">Где купить</a></li>
+                                <li class="menu_item"><a href="#" class="menu_link">FAQ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <a href="http://127.0.0.1:5500/index.html" class="header_logo">
+                        <img src="./img/logo.png" alt="logo" class="logo">
+                    </a>
+                </div>
+
+                <div class="header_right">
+                    <div class="bascket">
+                        <a class="bascket_item">
+                            <img src="./img/bascet.png" alt="basket" class="basket_img">
+                        </a>
+                        <div class="bascket_number">1</div>
+                    </div>
+                    <div class="button_language">
+                        <button class="button_language-btn button_rus active">Рус</button>
+                        <button class="button_language-btn button_eng">Англ</button>
+                    </div>
+                
+                    <div class="dropdown">
+                        <div class="dropdown__value">Рус</div>
+                            <div class="dropdown__list">
+                            <div class="dropdown__item">Укр</div>
+                            <div class="dropdown__item">Англ</div>
+                        </div> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Contact-->
+<div class="contact">
+    <div class="container">
+        <div class="contact_body">
+            <div class="contact_form">
+                <div class="contact_item">
+                    <label for="topic" class="contact_item-name">Topic</label>
+                    <input type="text" id="topic" placeholder="Enter your topic" class="contact_input">
+                </div>
+                <div class="contact_item">
+                    <label for="name" class="contact_item-name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your Name" class="contact_input">
+                </div>
+                <div class="contact_item">
+                    <label for="mail" class="contact_item-name">E-mail adress</label>
+                    <input type="text" id="mail" placeholder="Enter your email address" class="contact_input">
+                </div>
+                <div class="contact_item">
+                    <label for="message" class="contact_item-name">Message</label>
+                    <textarea type="text" id="message" placeholder="Enter your message" rows="5" class="contact_input"></textarea>
+                </div>
+            </div>
+
+            <div class="contact_submit">
+                <div class="title">contact</div>
+                <div class="submit_description">
+                    <div class="contact_submit-text">Every bite matters to us! Have a question or a suggestion on how we can make our bars even better? Fill in this form and one of the members of our team will get back to you as soon as possible.</div>
+                    <button class="button_catalog button_contact">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+    <!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer_up">
+            <div class="footer_description">
+                <div class="title title_left footer_title">присоединяйтесь к нашему списку вип!</div>
+                <div class="footer_title-description">Подписывавшись на нашу рассылку, Вы не упустите новые продукты, выгодные предложения и многое другое</div>
+            </div>
+            <div class="registration_form">
+                <input type="email" id="email" placeholder="Введите Ваш E-mail" class="footer_form-input">
+                <button class="button_catalog">Подписаться</button>
+            </div>
+        </div>
+        <div class="footer_down">
+            <div class="footer_img">
+                <img src="./img/footer_logo.png" alt="footer_logo" class="footer_logo">
+                <img src="./img/White_logo.png" alt="footer_logo-mobile" class="footer_logo-mobile">
+            </div>
+            <div class="listen_icons">
+                <a href="#" class="listen_icon">
+                    <img src="./img/fcb.png" alt="facebook" class="icon">
+                </a>
+                <a href="#" class="listen_icon">
+                    <img src="./img/ins.png" alt="instagram" class="icon">
+                </a>
+                <a href="#" class="listen_icon">
+                    <img src="./img/twt.png" alt="twitter" class="icon">
+                </a>
+            </div>
+        </div>
+        <div class="footer_center">Все права сохранены 2021</div>
+    </div>
+</footer>
+    <!-- Custom scripts -->
+    
+    <script>
+        function mobileFunc() {
+    // Выполняем действие, если ширина меньше 1000px
+    let w = window.innerWidth;
+    if (w < 767 && !document.querySelector('.submit_description .contact_form')) {
+                    // document.querySelector('.contact_body > .contact_form'))
+    // Вставляем блок в блок
+        const sp1 = document.querySelector('.contact_form');
+        const sp2 = document.querySelector('.contact_submit-text');
+        sp2.insertAdjacentElement("afterend", sp1);
+    }
+    else if (w > 767 && !document.querySelector('.contact_body > .contact_form')) {
+        document.querySelector('.contact_submit').insertAdjacentElement('beforebegin', document.querySelector('.contact_form') );
+    }
+
+  }
+  
+  // Выполняем заново при изменении размера окна
+  window.addEventListener('resize', function() {
+        console.log("Размер окна изменен");
+        mobileFunc();
+  });
+    </script>
+     <!-- Custom scripts -->
+     <script src="./script/script.js"></script>
+</body>
+</html>

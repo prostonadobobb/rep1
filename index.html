@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/libs/normalize.css">
+    <link rel="stylesheet" href="./style/libs/splide.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/adaptive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="container">
+            <div class="header_body">
+                <div class="header_left">
+                    <div class="menu">
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+                        <nav class="header_menu">
+                            <ul class="menu_list">
+                                <li class="menu_item"><a href="#about" class="menu_link">О нас</a></li>
+                                <li class="menu_item"><a href="#catalog" class="menu_link">Каталог</a></li>
+                                <li class="menu_item"><a href="#ship" class="menu_link">Доставка</a></li>
+                                <li class="menu_item"><a href="#diets" class="menu_link">Мнения диетологов</a></li>
+                                <li class="menu_item"><a href="#clients" class="menu_link">Наши звездные клиенты</a></li>
+                                <li class="menu_item"><a href="#review" class="menu_link">Отзывы</a></li>
+                                <li class="menu_item"><a href="#contacts" class="menu_link">Контакты</a></li>
+                                <li class="menu_item"><a href="#different" class="menu_link">Советы</a></li>
+                                <li class="menu_item"><a href="#" class="menu_link">Где купить</a></li>
+                                <li class="menu_item"><a href="#" class="menu_link">FAQ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <a href="http://127.0.0.1:5500/index.html" class="header_logo">
+                        <img src="./img/logo.png" alt="logo" class="logo">
+                    </a>
+                </div>
+
+                <div class="header_right">
+                    <div class="bascket">
+                        <a class="bascket_item">
+                            <img src="./img/bascet.png" alt="basket" class="basket_img">
+                        </a>
+                        <div class="bascket_number">1</div>
+                    </div>
+                    <div class="button_language">
+                        <button class="button_language-btn button_rus active">Рус</button>
+                        <button class="button_language-btn button_eng">Англ</button>
+                    </div>
+                
+                    <div class="dropdown">
+                        <div class="dropdown__value">Рус</div>
+                         <div class="dropdown__list">
+                            <div class="dropdown__item">Укр</div>
+                            <div class="dropdown__item">Англ</div>
+                        </div> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Baner-->
+
+    <section class="baner">
+        <button class="button_baner"><a href="#">Продукты</a></button>
+    </section>
+
+    <!--Benefits-->
+
+    <section class="benefits">
+        <div class="container">
+            <div class="title">преимущества нашего продукта</div>
+            <div class="benefits_products">
+                <div class="product_benefits-item eat">
+                    <div class="img_item">
+                        <img class="eat" src="/img/icons8-еда-100 1.png" alt="eat">
+                    </div>
+                    <div class="about_product">
+                        <div class="about_tittle">Полноценное питание</div>
+                        <p class="about_description">Белок, незаменимые жиры, углеводы, клетчатка, а также 27 основных
+                            витаминов и минералов</p>
+                    </div>
+                </div>
+
+                <div class="product_benefits-item time">
+                    <div class="img_item">
+                        <img class="eat" src="/img/icons8-время-100 (1) 1.png" alt="eat">
+                    </div>
+                    <div class="about_product">
+                        <div class="about_tittle">Экономия времени</div>
+                        <p class="about_description">Вы получаете готовую пищу. Вам не нужно ее готовить и мыть грязную
+                            посуду</p>
+                    </div>
+                </div>
+
+                <div class="product_benefits-item money">
+                    <div class="img_item">
+                        <img class="eat" src="/img/icons8-деньги-ваши-100 (1) 1.png" alt="eat">
+                    </div>
+                    <div class="about_product">
+                        <div class="about_tittle">Экономия денег</div>
+                        <p class="about_description">Подпишитесь на нас, зовите своих друзей и экономьте деньги вместе
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product_benefits-item waste">
+                    <div class="img_item">
+                        <img class="eat" src="/img/icons8-сортировка-отходов-100 (2) 1.png" alt="eat">
+                    </div>
+                    <div class="about_product">
+                        <div class="about_tittle">Без пищевых отходов</div>
+                        <p class="about_description">Естественно долгий срок хранения и экологически чистые ингредиенты
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product_benefits-item vegan">
+                    <div class="img_item">
+                        <img class="eat" src="/img/icons8-веганская-еда-100 1.png" alt="eat">
+                    </div>
+                    <div class="about_product">
+                        <div class="about_tittle">Гуманный (веганский)</div>
+                        <p class="about_description">Huel производится на растительной основе и не содержит продуктов
+                            животного происхождения</p>
+                    </div>
+                </div>
+
+                <div class="product_benefits-item easy">
+                    <div class="img_item">
+                        <img class="eat" src="/img/icons8-поваренная-книга-100 1.png" alt="eat">
+                    </div>
+                    <div class="about_product">
+                        <div class="about_tittle">Простота</div>
+                        <p class="about_description">Больше никаких сложных рецептов и подсчета <br> калорий</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--our products-->
+    <section class="our_products" id=catalog>
+        <div class="container">
+            <div class="products">
+                <div class="products_header">
+                    <div class="title">our products</div>
+                    <div class="products_boring">Eating right doesn’t have to be boring </div>
+                    <div class="products_try">Try something new with RawQ</div>
+                </div>
+
+                <!-- Splide carousel -->
+                <div class="splide products__splide" role="group" aria-label="Splide Basic HTML Example" style="padding: 0;">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <img src="./img/влево.svg" alt="left" class="products__splide-left">
+                        </button>
+                        <button class="splide__arrow splide__arrow--next" class="products__splide-right">
+                        <img src="./img/вправо.svg" alt="right">
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="slide first border_one">
+                                    <div class="product_name">Продукт1</div>
+                                    <div class="img_prod">
+                                        <img src="./img/слой.png" alt="product_name">
+                                    </div>
+                                    <div class="product_price">10.00 $</div>
+                                    <button class="button_slider first">Вібрать</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide first border_two">
+                                    <div class="product_name">Продукт2</div>
+                                    <img src="./img/слой.png" alt="product_name">
+                                    <div class="product_price">20.00 $</div>
+                                    <button class="button_slider second">ВЫбрать</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide first border_three">
+                                    <div class="product_name">Продукт3</div>
+                                    <img src="./img/слой.png" alt="product_name">
+                                    <div class="product_price">30.00 $</div>
+                                    <button class="button_slider third">Вібрать</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide first border_four">
+                                    <div class="product_name">Продукт4</div>
+                                    <img src="./img/слой.png" alt="product_name">
+                                    <div class="product_price">40.00 $</div>
+                                    <button class="button_slider fourth">Вібрать</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Button cataloge-->
+                <button class="button_catalog">Перейти в каталог</button>
+
+                 
+                <!--products POPUP-->
+                <div class="modal">
+                    <div class="modal_main">
+                        <h2 class="title">Точно хочите купить?</h2>
+                        <div class="modal_container">
+                            <div class="product_name-modal">----</div>
+                            <div class="product_price-modal">---</div>
+                        </div>
+                        <button class="modal_close">&#10006;</button>
+                        <div class="modal_buttons">
+                            <button class="button_catalog button_buy">Купить</button>
+                            <button class="button_catalog button_exit">Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--Star ingredient-->
+    <section class="ingredient_benefits">
+        <div class="container">
+                <div class="title">Meet the star ingredient - buckwheat</div>
+                <div class="ingredient_description">The ancient pseudo-grain buckwheat is considered a superfood around the globe…and when you look closer, <br><strong>it’s not hard to see why!</strong></div>
+            <div class="benefits_content">
+                <img class="benefits_img" src="./img/image 17.jpg" alt="img">
+                <div class="ingredient_items">
+                    <div class="ingredient_item">
+                        <img class="ingredient_item-img" src="./img/image_ok.png" alt="ok_img">
+                        <div class="ingredient_item-description">The protein inside contains all nine of the essential amino acids, which is very rare for a non-animal protein.</div>
+                    </div>
+                    <div class="ingredient_item">
+                        <img class="ingredient_item-img" src="./img/image_ok.png" alt="ok_img">
+                        <div class="ingredient_item-description">It’s a unique energy source with high levels of resistant starch that lowers Gl levels, improving blood sugar control.</div>
+                    </div>
+                    <div class="ingredient_item">
+                        <img class="ingredient_item-img" src="./img/image_ok.png" alt="ok_img">
+                        <div class="ingredient_item-description">It's 100% gluten-free, despite its name, and great for celiacs.</div>
+                    </div>
+                    <div class="ingredient_item">
+                        <img class="ingredient_item-img" src="./img/image_ok.png" alt="ok_img">
+                        <div class="ingredient_item-description">It contains B vitamins, riboﬂavn (B2) and niacin (B3), and is also an excellent source of magnesium, copper, manganese and iron.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ingredient_description">This superfood is blended with tasty, natural, vegan ingredients to create an energy bar that will outperform any other and<br><strong>help you outperform your competition!</strong></div>
+        </div>
+    </section>
+
+    <!--Diets recomendation-->
+
+    <section class="diets" id="diets">
+        <div class="container">
+            <div class="about_diets">
+                <div class="title">Мнения диетологов</div>
+                <!-- Splide carousel -->
+                <div class="splide diets__splide" role="group" aria-label="Splide Basic HTML Example" style="padding-top: 45px;">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <img src="./img/влево.svg" alt="left">
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                        <img src="./img/вправо.svg" alt="right">
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="slide second">
+                                    <img src="./img/gileva 1.png" alt="specialist_photo" class="specialist_photo">
+                                    <div class="specialist_name">ірина гілєва</div>
+                                    <div class="specialist_prof">Нутріціолог</div>
+                                    <p class="specialist_about">«Настало время, когда каждый должен активизировать работу своей иммунной системы; необходим «супериммунитет. Настало время, когда каждый должен активизировать работу своей иммунной системы.</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide second">
+                                    <img src="./img/gileva 1.png" alt="specialist_photo" class="specialist_photo">
+                                    <div class="specialist_name">ірина гілєва</div>
+                                    <div class="specialist_prof">Нутріціолог</div>
+                                    <p class="specialist_about">«Настало время, когда каждый должен активизировать работу своей иммунной системы; необходим «супериммунитет. Настало время, когда каждый должен активизировать работу своей иммунной системы.</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide second">
+                                    <img src="./img/gileva 1.png" alt="specialist_photo" class="specialist_photo">
+                                    <div class="specialist_name">ірина гілєва</div>
+                                    <div class="specialist_prof">Нутріціолог</div>
+                                    <p class="specialist_about">«Настало время, когда каждый должен активизировать работу своей иммунной системы; необходим «супериммунитет. Настало время, когда каждый должен активизировать работу своей иммунной системы.</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide second">
+                                    <img src="./img/gileva 1.png" alt="specialist_photo" class="specialist_photo">
+                                    <div class="specialist_name">ірина гілєва</div>
+                                    <div class="specialist_prof">Нутріціолог</div>
+                                    <p class="specialist_about">«Настало время, когда каждый должен активизировать работу своей иммунной системы; необходим «супериммунитет. Настало время, когда каждый должен активизировать работу своей иммунной системы.</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide second">
+                                    <img src="./img/gileva 1.png" alt="specialist_photo" class="specialist_photo">
+                                    <div class="specialist_name">ірина гілєва</div>
+                                    <div class="specialist_prof">Нутріціолог</div>
+                                    <p class="specialist_about">«Настало время, когда каждый должен активизировать работу своей иммунной системы; необходим «супериммунитет. Настало время, когда каждый должен активизировать работу своей иммунной системы.</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide  second">
+                                    <img src="./img/gileva 1.png" alt="specialist_photo" class="specialist_photo">
+                                    <div class="specialist_name">ірина гілєва</div>
+                                    <div class="specialist_prof">Нутріціолог</div>
+                                    <p class="specialist_about">«Настало время, когда каждый должен активизировать работу своей иммунной системы; необходим «супериммунитет. Настало время, когда каждый должен активизировать работу своей иммунной системы.</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide second">
+                                    <img src="./img/gileva 1.png" alt="specialist_photo" class="specialist_photo">
+                                    <div class="specialist_name">ірина гілєва</div>
+                                    <div class="specialist_prof">Нутріціолог</div>
+                                    <p class="specialist_about">«Настало время, когда каждый должен активизировать работу своей иммунной системы; необходим «супериммунитет. Настало время, когда каждый должен активизировать работу своей иммунной системы.</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide  second">
+                                    <img src="./img/gileva 1.png" alt="specialist_photo" class="specialist_photo">
+                                    <div class="specialist_name">ірина гілєва</div>
+                                    <div class="specialist_prof">Нутріціолог</div>
+                                    <p class="specialist_about">«Настало время, когда каждый должен активизировать работу своей иммунной системы; необходим «супериммунитет. Настало время, когда каждый должен активизировать работу своей иммунной системы.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="button_catalog">Перейти в каталог</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Comments-->
+    <section class="comments_slider" id="review">
+        <div class="container">
+            <div class="about_diets">
+                <div class="title">отзіві наших клієнтов</div>
+                <!-- Splide carousel -->
+                <div class="splide comments__splide" role="group" aria-label="Splide Basic HTML Example">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <img src="./img/влево.svg" alt="left">
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                        <img src="./img/вправо.svg" alt="right">
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <div class="comment_slide">
+                                        <img class="sign_img" src="./img/icons8-цитата-слева-48 1.png" alt="sign_img">
+                                        <div class="comment_header">    
+                                            <p class="comment_description">Прекрасный и очень полезный продукт. Ничего лучше не покупала и не встречала. Очень вкусно и полезно. Употребляю его ежедневно. Спасибо Вам за это чудо!</p>
+                                            <div class="from">
+                                                <img src="./img/portrait-of-scheming.png" alt="from_img" class="from_img">
+                                                <div class="from_raiting">
+                                                    <div class="name_person">Моніка Шульгіна</div>
+                                                    <img src="./img/Оценка.png" alt="raiting_star" class="raiting_star">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <div class="comment_slide">
+                                        <img class="sign_img" src="./img/icons8-цитата-слева-48 1.png" alt="sign_img">
+                                        <div class="comment_header">    
+                                            <p class="comment_description">Прекрасный и очень полезный продукт. Ничего лучше не покупала и не встречала. Очень вкусно и полезно. Употребляю его ежедневно. Спасибо Вам за это чудо!</p>
+                                            <div class="from">
+                                                <img src="./img/portrait-of-scheming.png" alt="from_img" class="from_img">
+                                                <div class="from_raiting">
+                                                    <div class="name_person">Моніка Шульгіна</div>
+                                                    <img src="./img/Оценка.png" alt="raiting_star" class="raiting_star">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <div class="comment_slide">
+                                        <img class="sign_img" src="./img/icons8-цитата-слева-48 1.png" alt="sign_img">
+                                        <div class="comment_header">    
+                                            <p class="comment_description">Прекрасный и очень полезный продукт. Ничего лучше не покупала и не встречала. Очень вкусно и полезно. Употребляю его ежедневно. Спасибо Вам за это чудо!</p>
+                                            <div class="from">
+                                                <img src="./img/portrait-of-scheming.png" alt="from_img" class="from_img">
+                                                <div class="from_raiting">
+                                                    <div class="name_person">Моніка Шульгіна</div>
+                                                    <img src="./img/Оценка.png" alt="raiting_star" class="raiting_star">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <div class="comment_slide">
+                                        <img class="sign_img" src="./img/icons8-цитата-слева-48 1.png" alt="sign_img">
+                                        <div class="comment_header">    
+                                            <p class="comment_description">Прекрасный и очень полезный продукт. Ничего лучше не покупала и не встречала. Очень вкусно и полезно. Употребляю его ежедневно. Спасибо Вам за это чудо!</p>
+                                            <div class="from">
+                                                <img src="./img/portrait-of-scheming.png" alt="from_img" class="from_img">
+                                                <div class="from_raiting">
+                                                    <div class="name_person">Моніка Шульгіна</div>
+                                                    <img src="./img/Оценка.png" alt="raiting_star" class="raiting_star">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <button class="button_catalog">Перейти в каталог</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Label-->
+    <section class="comments_slider">
+        <div class="container">
+            <div class="about_diets">
+                <div class="title">журнали</div>
+                <!-- Splide carousel -->
+                <div class="splide label__splide" role="group" aria-label="Splide Basic HTML Example">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <img src="./img/влево.svg" alt="left">
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <img src="./img/вправо.svg" alt="right">
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <img src="./img/343-3439232_mens-health-logo-black-mens-health-logo-png 1.png" alt="mens_heal">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <img src="./img/Womens-Health-Alliance-footer 1.png" alt="woman_heal">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <img src="./img/CNN-Default-Black_2x_sxcxke 1.png" alt="cnn">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <img src="./img/shape-logo-png-transparent 1.png" alt="shape">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <img src="./img/343-3439232_mens-health-logo-black-mens-health-logo-png 1.png" alt="mens_heal">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <img src="./img/Womens-Health-Alliance-footer 1.png" alt="woman_heal">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <img src="./img/CNN-Default-Black_2x_sxcxke 1.png" alt="cnn">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="slide">
+                                    <img src="./img/shape-logo-png-transparent 1.png" alt="shape">
+                                </div>
+                            </li>
+                                                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--RAWQ Different-->
+    <section class="different" id="different">
+        <div class="container">
+            <div class="different_section">
+                <div class="different_section-most">
+                    <div class="title">What makes RawQ different?</div>
+                    <div class="products_second-title"><strong>Energy bars are great.</strong></div>
+                    <div class="products_text-up">When you need an energy boost on the go, they make the perfect snack…The problem is that most energy bars fail to deliver on their promise.</div>
+
+                    <div class="products_contain">
+                        <div class="no_contain">
+                            <div class="no_contain-items">
+                                <div class="no_contain-item"><strong>hat’s because MOST energy bars contain:</strong></div>
+                                <div class="no_contain-item">
+                                    <img class="cross" src="./img/image 16 3.png" alt="cross">
+                                    <div class="no_contain-item-about">High sugar ingredients</div>
+                                </div>
+                                <div class="no_contain-item">
+                                    <img class="cross" src="./img/image 16 3.png" alt="cross">
+                                    <div class="no_contain-item-about">Preservatives</div>
+                                </div>
+                                <div class="no_contain-item">
+                                    <img class="cross" src="./img/image 16 3.png" alt="cross">
+                                    <div class="no_contain-item-about">Additives</div>
+                                </div>
+                                <div class="no_contain-item">
+                                    <img class="cross" src="./img/image 16 3.png" alt="cross">
+                                    <div class="no_contain-item-about">Stabilisers</div>
+                                </div>
+                                <div class="no_contain-item">
+                                    <img class="cross" src="./img/image 16 3.png" alt="cross">
+                                    <div class="no_contain-item-about">And other ingredients your body doesn’t need.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./img/image 14.png" alt="img" class="products_different_img">
+                    </div>
+                    <div class="products_text-down">They give you a momentary boost before spiking your insulin and leaving you feeling tired, lethargic, and worse off than you did before!</div>
+                    <div class="products_second-title"><strong>See for yourself…</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--RAWQ Different option-->
+    <section class="different_option">
+        <div class="container">
+            <div class="different_section-table">
+                <div class="different_no-use">
+                    <div class="column_name"></div>
+                    <div class="no-use-item">Low Sugar</div>
+                    <div class="no-use-item">Long Energy Release</div>
+                    <div class="no-use-item">No Preservatives</div>
+                    <div class="no-use-item">No Additives</div>
+                </div>
+                <div class="icons line">
+                    <div class="column_name">RAWQ</div>
+                    <div class="column_icon">
+                        <img src="./img/image_ok.png" alt="ok">
+                    </div>
+                    <div class="column_icon">
+                        <img src="./img/image_ok.png" alt="ok">
+                    </div>
+                    <div class="column_icon">
+                        <img src="./img/image_ok.png" alt="ok">
+                    </div>
+                    <div class="column_icon">
+                        <img src="./img/image_ok.png" alt="ok">
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="column_name">GENERIC ENERGY BAR</div>
+                    <div class="column_icon">
+                        <img src="./img/image 16 3.png" alt="false">
+                    </div>
+                    <div class="column_icon">
+                        <img src="./img/image 16 3.png" alt="false">
+                    </div>
+                    <div class="column_icon">
+                        <img src="./img/image 16 3.png" alt="false">
+                    </div>
+                    <div class="column_icon">
+                        <img src="./img/image 16 3.png" alt="false">
+                    </div>
+                </div>
+            </div>
+
+            <div class="different_product-item">
+                <div class="different_product-description"> 
+                    <strong>RawQ is different.</strong><br><br>
+                    Our bar was specifically designed with the cleanest top-performing ingredients to release energy over time. 
+                </div>
+                <!-- Splide carousel -->
+                <div class="different_slider">
+                    <div class="splide different__splide" role="group" aria-label="Splide Basic HTML Example" style="padding: 0;">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="./img/влево.svg" alt="left">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="./img/вправо.svg" alt="right">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class="slide">
+                                        <div class="product_photo">
+                                            <img class="product_one" src="./img/product_one.png" alt="product">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="slide">
+                                        <div class="product_photo">
+                                            <img class="product_one" src="./img/product_one.png" alt="product">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="slide">
+                                        <div class="product_photo">
+                                            <img class="product_one" src="./img/product_one.png" alt="product">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ramka"></div>
+                    <button class="button_catalog button_different">Try It Today</button>
+                </div>
+                <div class="different_product-description">
+                    <strong>The result?</strong><br><br>
+                    A continual supply of high-quality, long-lasting energy that keeps you going for as long as you need.
+                </div>
+                <button class="button_catalog button_different-mobile">Try It Today</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Become a part-->
+    <section class="become" id="ship">
+        <div class="container">
+            <div class="become_item">
+                <div class="title">become a part of our comunnity</div>
+                <div class="products_second-title"><strong>Join the RawQ Club today.</strong></div>
+            </div>
+        </div> 
+             
+        <div class="products_text-up become_title">You'll get exclusive access to all the latest news, flavours, special offers, free shipping and you'll be first in line for our community launch!</div>
+        <div class="container"></div>
+            <div class="become_icons">
+                <div class="become_icons-item">
+                    <img src="./img/sale.png" alt="sale">
+                    <div class="item_description">Special Offers</div>
+                </div>
+                <div class="become_icons-item center">
+                    <img src="./img/shipping.png" alt="shipping">
+                    <div class="item_description">Free Shipping</div>
+                </div>
+                <div class="become_icons-item">
+                    <img src="./img/star.png" alt="star">
+                    <div class="item_description">Exclusive Content</div>
+                </div>
+            </div>
+            <button class="button_catalog become_button">I'm in!</button>
+        </div>
+    </section>
+
+    <!--Story behind the bar-->
+    <section class="story">
+        <div class="container">
+            <div class="title">RawQ - The Story Behind The Bar</div>
+            <div class="story_description">
+                <p class="story_about">Last year, in 2021, Daniil Medvedev won his first Grand Slam title to become the US Open champion. That didn’t happen by accident… oh no. That was the result of dedication, careful planning and hard work.
+                    <br><br>
+                    Every. Single. Day.<br> 
+                    Including hours of training on and off the court, a precise daily schedule and a balanced diet.
+                    <br><br>
+                    Energy bars are an important part of Daniil’s daily meal regimen, helping replenish energy supplies between workouts or sets during a match.
+                </p>
+                <img src="./img/champion.jpg" alt="champion" class="champion_photo">
+            </div>
+            <div class="snack">
+                <div class="snack_tittle"><strong>A snack designed for a professional athlete should contain:</strong></div>
+                <div class="snack_icons">
+                    <div class="snack_icons-item">
+                        <img src="./img/natural.jpg" alt="natural">
+                        <div class="item_description">Be 100% natural product
+                        </div>
+                    </div> <div class="snack_icons-item center">
+                        <img src="./img/calories.jpg" alt="calories">
+                        <div class="item_description">Optimum calories and macronutrients ratio
+                        </div>
+                    </div> <div class="snack_icons-item">
+                        <div>
+                        <img src="./img/sugar.jpg" alt="sugar">
+                    </div>
+                        <div class="item_description">Minimum amount of sugar
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="champion_about">Daniil had high requirements for the ingredients used, and nothing on the market was good enough.<br>So we decided to create our own.</div>
+            <div class="button_try">
+                <button class="button_catalog">Ready to try?</button>
+            </div>
+        </div>
+    </section>
+
+<!--About us-->
+ <section class="about" id="about">
+    <div class="container">
+        <div class="about_us">
+            <img src="./img/two_girls.png" alt="two_girls" class="two_girls">
+            <div class="about_us-description">
+                <div class="title title_left">о нас</div>
+                <p class="about_title-description">Арина очень давно в здоровом питании, имеет образование и опыт. Начала искать на российском рынке полезные сладости, все однотипное и с плохим составом. Я связана со спортом, нужны были долгоиграющие спортивные батончики с минимальным сахаром. В России их просто нет, в Европе есть 2/3 аналогов.</p>
+                <button class="button_catalog">Читать больше</button>
+            </div>
+        </div>
+        <div class="about_mission">
+            <div class="title title_left">наша миссия</div>
+            <p class="about_title-description">Нам важно поддерживать людей в стремлении жить насыщенной полноценной жизнью. Такой, в которой есть место активности, осознанности и новым перспективам. Для этого мы и создаем эффективные функциональные продукты BotanIQ, в основе которых — синергия науки и природы.</p>
+            <button class="button_catalog">Читать больше</button>
+        </div>
+        
+    </div>
+ </section>
+
+ <!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer_up">
+            <div class="footer_description">
+                <div class="title title_left footer_title">присоединяйтесь к нашему списку вип!</div>
+                <div class="footer_title-description">Подписывавшись на нашу рассылку, Вы не упустите новые продукты, выгодные предложения и многое другое</div>
+            </div>
+            <div class="registration_form">
+                <input type="email" id="email" placeholder="Введите Ваш E-mail" class="footer_form-input">
+                <button class="button_catalog">Подписаться</button>
+            </div>
+        </div>
+        <div class="footer_down">
+            <div class="footer_img">
+                <img src="./img/footer_logo.png" alt="footer_logo" class="footer_logo">
+                <img src="./img/White_logo.png" alt="footer_logo-mobile" class="footer_logo-mobile">
+            </div>
+            <div class="listen_icons">
+                <a href="#" class="listen_icon">
+                    <img src="./img/fcb.png" alt="facebook" class="icon">
+                </a>
+                <a href="#" class="listen_icon">
+                    <img src="./img/ins.png" alt="instagram" class="icon">
+                </a>
+                <a href="#" class="listen_icon">
+                    <img src="./img/twt.png" alt="twitter" class="icon">
+                </a>
+            </div>
+        </div>
+        <div class="footer_center">Все права сохранены 2021</div>
+    </div>
+</footer>
+
+
+    <!-- div>div.cell*3>.icon*3 -->
+
+    <!-- Libs scripts -->
+    <script src="./script/libs/splide.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script src="./script/script.js"></script>
+
+    <!--PopUp script-->
+    <script>
+
+
+    const modalController = ({modal, btnOpen, btnClose}) => {
+        
+       const buttonElem = document.querySelectorAll(btnOpen);
+       const modalElem = document.querySelector(modal);
+       
+
+
+       modalElem.style.cssText = `
+        display: flex;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 300ms ease-in-out;
+       `;
+
+        // openModal
+        for (i = 0; i < buttonElem.length; i++) {
+            const el = buttonElem[i];
+            
+            el.addEventListener("click", function(e) {
+                 // Вивести назву продукту
+                 let nameProduct = e.target.closest('.slide').querySelector('.product_name').textContent;                
+                 document.querySelector('.product_name-modal').textContent = nameProduct;
+                 // Вивести ціну
+                 let priceProduct = e.target.closest('.slide').querySelector('.product_price').textContent;
+                 document.querySelector('.product_price-modal').textContent = priceProduct;
+                
+                
+                modalElem.style.visibility = 'visible';
+                modalElem.style.opacity = 1;
+            });
+
+        }
+
+        //closeModal
+        modalElem.addEventListener("click", (e) => {
+            const target = e.target;
+            if (target === modalElem || target.closest(btnClose) || target.closest(".button_exit")) {
+                modalElem.style.opacity = 0;
+
+                setTimeout( () => {
+                    modalElem.style.visibility = 'hidden';
+                }, 300)
+            };
+        })
+    };
+
+    modalController({
+        modal: '.modal',
+        btnOpen: '.button_slider',
+        btnClose: '.modal_close'
+    });
+
+    
+        
+    </script>
+
+</body>
+
+</html>
+
+
