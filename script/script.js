@@ -15,25 +15,27 @@ let menuItems = document.querySelectorAll('.menu_item')
 
 for (let item of menuItems) {
     item.addEventListener('click', (e) => {
-        e.preventDefault();
-        const blockID = item.querySelector('a').getAttribute('href')
 
-        if (blockID == '#') {
-            console.log('Element with ID: ' + blockID + ' has not been Founded! Error!');
-            return false;
+
+       
+        const blockID = item.querySelector('a').getAttribute('href')
+    
+        if (blockID[0] == '#') {
+            e.preventDefault();
+            const offsetConst = 65;
+            let topPos = document.querySelector(blockID).offsetTop - offsetConst; 
+    
+            console.log(topPos)
+            menuBtn.classList.remove('active');
+            menuBurger.classList.remove('active');
+    
+            window.scrollTo({
+                top: topPos,
+                behavior: "smooth"
+            });
         }
 
-        const offsetConst = 65;
-        let topPos = document.querySelector(blockID).offsetTop - offsetConst; 
-
-        console.log(topPos)
-        menuBtn.classList.remove('active');
-        menuBurger.classList.remove('active');
-
-        window.scrollTo({
-            top: topPos,
-            behavior: "smooth"
-        });
+       
     });
 }
 
