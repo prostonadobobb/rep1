@@ -18,7 +18,7 @@ for (let item of menuItems) {
         e.preventDefault();
         const blockID = item.querySelector('a').getAttribute('href')
 
-        if (blockID == '#' || !document.querySelector(blockID) ) {
+        if (blockID == '#') {
             console.log('Element with ID: ' + blockID + ' has not been Founded! Error!');
             return false;
         }
